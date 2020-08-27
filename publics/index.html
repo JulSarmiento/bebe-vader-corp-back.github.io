@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montaga&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Bebé Vader & corp.  | Julieth Sarmiento </title>
+    </head>
+    <body>
+
+        <section class="wrapper flex card hide-one">
+
+            <header class="the-title">
+
+                <h1 class="title">Bebé Vader & corp. <i class="fas fa-briefcase"></i></h1>
+                <p class="subtitle">Cuidamos tus ahorros con colmillos y garras para que estes seguro en todo momento. </p>
+
+            </header>
+
+            <section class="flex-desktop">
+                <img class="profile-image" src="assets/images/Profile-vader.jpeg" alt="foto del gerente del banco, el gatito Bebé Vader.">
+
+                <form id="login" class="login-first" onsubmit="submitAccount()">
+                    <div>
+                        <label for="use">Número de Usuario: </label>
+                        <input type="number" id="account" minlength="9" maxlength="11" required>
+                    </div>                    <div>
+                        <label for="user-password">Contraseña: </label>
+                        <input type="number" id="account" minlength="9" maxlength="11" required>
+                    </div>
+    
+                    <button type="submit" form="login" >Ingresar</button>
+    
+                </form>
+            </section>
+
+
+
+        </section>
+
+        <main class="wrapper flex card hide-two">
+
+            <header class="the-title">
+
+                <h2 class="title">Bebé Vader & corp. <i class="fas fa-briefcase"></i></h2>
+                <p class="subtitle">Cuidamos tus ahorros con colmillos y garras para que estes seguro en todo momento. </p>
+
+            </header>
+
+            <section class="card user-information ">
+                <h3 class="subtitle">¡Bienvenido!</h3>
+
+                <section class="user-information-inside">
+                    <h4>Fondos disponibles: </h4>
+                    <span id="founds"></span>
+                </section>
+
+                <button class="button" onclick="handleTwo()">Transferencia</button>
+
+            </section>
+
+        </main>
+
+        <section class="wrapper flex card hide-three">
+            
+            <header class="the-title">
+
+                <h2 class="title">Bebé Vader & corp. <i class="fas fa-briefcase"></i></h2>
+                <p class="subtitle">Cuidamos tus ahorros con colmillos y garras para que estes seguro en todo momento. </p>
+
+            </header>
+
+            <form action="" id="transaction" class="login-first">
+
+                <div>
+                    <label for="destinary">Ingrese el producto destino: </label>
+                    <input type="number" id="destinary" min="999999999">
+                </div>
+                <div>
+                    <label for="value">Ingrese al valor a transferir: </label>
+                    <input type="number" id="value" >
+                </div>
+
+                <button class="button" onclick="handleThree()">transferir</button>
+
+            </form>
+
+        </section>
+
+        <section class="wrapper flex card hide-four">
+            
+            <header class="the-title">
+
+                <h2 class="title">Bebé Vader & corp. <i class="fas fa-briefcase"></i></h2>
+                <p class="subtitle">Cuidamos tus ahorros con colmillos y garras para que estes seguro en todo momento. </p>
+
+            </header>
+
+            <section class="card notifications">
+                <article class="hide-transaction positive-notification">
+                    <h5 class="title">¡Transacción existosa!</h5>
+                    <p >La transacción relizada fue existora y se ve reflejada en los proximos minutos. En caso de dudas contactarte con el número 01 8000 5566787. Muchas gracias por preferirnos.</p>
+                </article>
+
+                <article class="hide-transaction negative-notification">
+                    <h5 class="title" >¡Transacción ha fallado!</h5>
+                    <p>Usted no poseé los fondos suficientes para esta transacción. En caso de dudas contactarte con el número 01 8000 5566787. Muchas gracias por preferirnos.</p>
+                </article>
+            </section>
+
+            <footer>
+
+                <button class="button-final" onclick="handleFour()">Salir</button>
+            </footer>
+
+        </section>
+        
+    </body>
+
+    <script src="scripts/script.js"></script>
+
+</html>

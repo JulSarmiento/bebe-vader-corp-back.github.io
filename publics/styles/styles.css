@@ -1,0 +1,168 @@
+body {
+  background-color: #fefefe;
+}
+
+.wrapper {
+  margin: 1%;
+
+}
+
+.card {
+  background-color: #dae1e7;
+  border-radius: 1em;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.the-title {
+  margin: 1em;
+  padding: 10px;
+}
+
+.title {
+  font-family: 'Montaga', serif;
+  font-style: italic;
+  color: #142850;
+}
+
+.subtitle {
+  color: #27496d;
+   
+}
+
+/* Landing page*/
+
+.profile-image {
+  height: 300px;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+.login-first {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  background-color: #00919ebe;
+  padding: 1.5em;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+.login-first label {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Montaga', serif;
+  text-align: justify;
+  color: #dae1e7;
+  font-size: 20px;
+  
+}
+
+.login-first button {
+  margin: 10px 0;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 1em;
+  background-color: #dae1e7;
+}
+
+.login-first button:hover {
+  background-color: #27496d;
+  color: #dae1e7;
+}
+
+/* User info page */
+
+.user-information {
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.user-information button {
+  margin: 10px 0;
+  text-align: center;
+  height: 40px;
+  width: 150px;
+  border-radius: 1em;
+  background-color: #27496d;
+  color:#dae1e7 ;
+}
+
+.user-information button:hover {
+  background-color: #dae1e7;
+  color: #27496d;
+}
+
+/* Notificatipon page*/
+
+.notifications {
+  border: 1px solid red;
+  margin: 0 1em;
+  padding: 1em;
+}
+
+.positive-notification {
+  border: 1px solid blue;
+  background-color: #27496d;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+.positive-notification h5, .positive-notification p {
+  color: #dae1e7;
+}
+
+.negative-notification {
+  border: 1px solid yellow;
+  background-color: #27496d;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+.negative-notification h5, .negative-notification p {
+  color: #dae1e7;
+}
+
+.button-final {
+  margin: 10px 0;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 1em;
+  background-color: #dae1e7;
+}
+
+.button-final:hover {
+  background-color: #27496d;
+  color: #dae1e7;
+}
+
+@media screen and (min-width: 1024px ) {
+
+  .wrapper {
+    margin: 5% 20%;
+  }
+
+  .flex {
+    display: flex;
+    flex-flow: column wrap;
+
+  }
+  
+  .flex-desktop {
+    display: flex;
+    flex-direction: row;
+  }
+}
